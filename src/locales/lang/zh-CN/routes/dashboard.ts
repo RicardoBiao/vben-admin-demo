@@ -3,5 +3,6 @@ export default {
   about: '关于',
   workbench: '工作台',
   form: '表单',
+  nform: '新表单',
   analysis: '分析页',
 };

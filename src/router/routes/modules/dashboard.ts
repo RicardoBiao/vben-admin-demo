@@ -33,6 +33,15 @@ const dashboard: AppRouteModule = {
       },
     },
     {
+      path: 'nform',
+      name: 'nForm',
+      component: () => import('../../../views/dashboard/nform/index'),
+      meta: {
+        // affix: true,
+        title: t('routes.dashboard.nform'),
+      },
+    },
+    {
       path: 'workbench',
       name: 'Workbench',
       component: () => import('/@/views/dashboard/workbench/index.vue'),

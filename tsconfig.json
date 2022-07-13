@@ -23,7 +23,8 @@
     "skipLibCheck": true,
     "paths": {
       "/@/*": ["src/*"],
-      "/#/*": ["types/*"]
+      "/#/*": ["types/*"],
+      "antdv-x3": ["packages/components/esm"],
     }
   },
   "include": [

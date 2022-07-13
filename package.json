@@ -35,7 +35,10 @@
   "dependencies": {
     "@ant-design/colors": "^6.0.0",
     "@ant-design/icons-vue": "^6.0.1",
+    "@formily/core": "^2.1.10",
+    "@formily/vue": "^2.1.10",
     "@iconify/iconify": "^2.0.4",
+    "@ksws03825/antdv-x3": "^1.0.0-rc.0",
     "@vueuse/core": "^6.7.4",
     "@vueuse/shared": "^6.7.4",
     "@zxcvbn-ts/core": "^1.0.0-beta.0",
@@ -85,6 +88,7 @@
     "@vue/compiler-sfc": "3.2.21",
     "@vue/test-utils": "^2.0.0-rc.16",
     "autoprefixer": "^10.4.0",
+    "babel-plugin-import": "^1.13.5",
     "commitizen": "^4.2.4",
     "conventional-changelog-cli": "^2.1.1",
     "cross-env": "^7.0.3",
