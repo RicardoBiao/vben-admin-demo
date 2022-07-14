@@ -1,0 +1,1 @@
+{"version":3,"file":"style.js","sourceRoot":"lib/","sources":["submit/style.ts"],"names":[],"mappings":";;AAAA,iDAA8C","sourcesContent":["import 'ant-design-vue/lib/button/style/index'\r\n"]}

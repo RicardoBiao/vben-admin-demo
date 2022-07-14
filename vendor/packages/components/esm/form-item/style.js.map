@@ -1,0 +1,1 @@
+{"version":3,"file":"style.js","sourceRoot":"lib/","sources":["form-item/style.ts"],"names":[],"mappings":"AAAA,OAAO,+BAA+B,CAAA;AACtC,OAAO,cAAc,CAAA","sourcesContent":["import 'ant-design-vue/lib/form/style'\r\nimport './style.less'\r\n"]}

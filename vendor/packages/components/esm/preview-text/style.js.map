@@ -1,0 +1,1 @@
+{"version":3,"file":"style.js","sourceRoot":"lib/","sources":["preview-text/style.ts"],"names":[],"mappings":"AAAA,OAAO,cAAc,CAAA;AACrB,OAAO,oCAAoC,CAAA","sourcesContent":["import './style.less'\r\nimport 'ant-design-vue/lib/tag/style/index'\r\n"]}

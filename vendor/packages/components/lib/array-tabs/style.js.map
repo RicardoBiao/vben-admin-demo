@@ -1,0 +1,1 @@
+{"version":3,"file":"style.js","sourceRoot":"lib/","sources":["array-tabs/style.ts"],"names":[],"mappings":";;AAAA,gDAA6C;AAC7C,+CAA4C","sourcesContent":["import 'ant-design-vue/lib/badge/style/index'\r\nimport 'ant-design-vue/lib/tabs/style/index'\r\n"]}

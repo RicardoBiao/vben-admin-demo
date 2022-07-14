@@ -1,0 +1,1 @@
+{"version":3,"file":"style.js","sourceRoot":"lib/","sources":["transfer/style.ts"],"names":[],"mappings":";;AAAA,mDAAgD","sourcesContent":["import 'ant-design-vue/lib/transfer/style/index'\r\n"]}

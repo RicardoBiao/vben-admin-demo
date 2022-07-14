@@ -1,0 +1,1 @@
+{"version":3,"file":"style.js","sourceRoot":"lib/","sources":["form-item/style.ts"],"names":[],"mappings":";;AAAA,yCAAsC;AACtC,wBAAqB","sourcesContent":["import 'ant-design-vue/lib/form/style'\r\nimport './style.less'\r\n"]}

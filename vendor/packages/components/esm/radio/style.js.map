@@ -1,0 +1,1 @@
+{"version":3,"file":"style.js","sourceRoot":"lib/","sources":["radio/style.ts"],"names":[],"mappings":"AAAA,OAAO,sCAAsC,CAAA","sourcesContent":["import 'ant-design-vue/lib/radio/style/index'\r\n"]}

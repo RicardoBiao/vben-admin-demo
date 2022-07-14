@@ -1,0 +1,2 @@
+import 'ant-design-vue/lib/transfer/style/index';
+//# sourceMappingURL=style.js.map
