@@ -36,6 +36,7 @@
     "@ant-design/colors": "^6.0.0",
     "@ant-design/icons-vue": "^6.1.0",
     "@formily/core": "^2.1.10",
+    "@formily/grid": "^2.1.10",
     "@formily/vue": "^2.1.10",
     "@iconify/iconify": "^2.2.1",
     "@logicflow/core": "^1.1.13",
@@ -55,6 +56,7 @@
     "intro.js": "^5.1.0",
     "lodash-es": "^4.17.21",
     "mockjs": "^1.1.0",
+    "moment": "^2.29.4",
     "nprogress": "^0.2.0",
     "path-to-regexp": "^6.2.0",
     "pinia": "2.0.12",
@@ -70,6 +72,7 @@
     "vue-i18n": "^9.1.9",
     "vue-json-pretty": "^2.0.6",
     "vue-router": "^4.0.14",
+    "vue-slicksort": "^1.2.0",
     "vue-types": "^4.1.1",
     "xlsx": "^0.18.5"
   },

@@ -1160,6 +1160,14 @@
     "@formily/shared" "2.1.10"
     "@formily/validator" "2.1.10"
 
+"@formily/grid@^2.1.10":
+  version "2.1.10"
+  resolved "https://registry.npmmirror.com/@formily/grid/-/grid-2.1.10.tgz#f2c85219a141b7ede1b4b721a04056cdb87a38fe"
+  integrity sha512-WLn7qkSfkyrz5zCDXqSR7SgjsEAmF8prZoyU7h67ekxCeVfvOPl8fWfXix+2VRpo3Y7PDG35iMri6xXf1VjX4A==
+  dependencies:
+    "@formily/reactive" "2.1.10"
+    "@juggle/resize-observer" "^3.3.1"
+
 "@formily/json-schema@2.1.10":
   version "2.1.10"
   resolved "https://registry.yarnpkg.com/@formily/json-schema/-/json-schema-2.1.10.tgz#96823d7f6e4becfe341801115a43f496ebb9b8a9"
@@ -1377,6 +1385,11 @@
   dependencies:
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
+
+"@juggle/resize-observer@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.npmmirror.com/@juggle/resize-observer/-/resize-observer-3.3.1.tgz#b50a781709c81e10701004214340f25475a171a0"
+  integrity sha512-zMM9Ds+SawiUkakS7y94Ymqx+S0ORzpG3frZirN3l+UlXUmSUR7hF4wxCVqW+ei94JzV5kt0uXBcoOEAuiydrw==
 
 "@logicflow/core@^1.1.13", "@logicflow/core@^1.1.21":
   version "1.1.21"
@@ -6562,6 +6575,11 @@ modify-values@^1.0.0:
   resolved "https://registry.npmmirror.com/modify-values/-/modify-values-1.0.1.tgz#b3939fa605546474e3e3e3c63d64bd43b4ee6022"
   integrity sha512-xV2bxeN6F7oYjZWTe/YPAy6MN2M+sL4u/Rlm2AHCIVGfo2p1yGmBHQ6vHehl4bRTZBdHu3TSkWdYgkwpYzAGSw==
 
+moment@^2.29.4:
+  version "2.29.4"
+  resolved "https://registry.npmmirror.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
+
 mousetrap@^1.6.5:
   version "1.6.5"
   resolved "https://registry.npmmirror.com/mousetrap/-/mousetrap-1.6.5.tgz#8a766d8c272b08393d5f56074e0b5ec183485bf9"
@@ -9339,6 +9357,11 @@ vue-router@^4.0.14:
   integrity sha512-Wp1mEf2xCwT0ez7o9JvgpfBp9JGnVb+dPERzXDbugTatzJAJ60VWOhJKifQty85k+jOreoFHER4r5fu062PhPw==
   dependencies:
     "@vue/devtools-api" "^6.1.4"
+
+vue-slicksort@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npmmirror.com/vue-slicksort/-/vue-slicksort-1.2.0.tgz#2bc1da2facc4350279ebc3866acea6ee5fe681ef"
+  integrity sha512-k1324l+AnYy6MrpySN7PYL165z2EkvZmMe+BS7H/EugzS8IrZYRtoqa3QxSSWB34C7cplV1hj3c+7peKpxpYxg==
 
 vue-tsc@^0.33.9:
   version "0.33.9"

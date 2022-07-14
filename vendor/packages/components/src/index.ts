@@ -26,7 +26,7 @@ export * from './tree-select';
 export * from './time-picker';
 export * from './date-picker';
 export * from './editable';
-// export * from './upload'
+// export * from './upload';
 export * from './array-tabs';
 export * from './array-base';
 export * from './array-cards';
