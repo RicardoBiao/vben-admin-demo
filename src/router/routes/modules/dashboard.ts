@@ -42,6 +42,31 @@ const dashboard: AppRouteModule = {
       },
     },
     {
+      path: 'gqbg',
+      name: 'gqbg',
+      meta: {
+        title: t('routes.dashboard.gqbg'),
+      },
+      children: [
+        {
+          path: 'base',
+          name: 'GqbgBase',
+          component: () => import('/@/views/dashboard/gqbg/basecollect'),
+          meta: {
+            title: t('routes.dashboard.gqbgBase'),
+          },
+        },
+        {
+          path: 'index',
+          name: 'GqbgIndex',
+          component: () => import('/@/views/dashboard/gqbg/index'),
+          meta: {
+            title: t('routes.dashboard.gqbgIndex'),
+          },
+        },
+      ],
+    },
+    {
       path: 'workbench',
       name: 'Workbench',
       component: () => import('/@/views/dashboard/workbench/index.vue'),

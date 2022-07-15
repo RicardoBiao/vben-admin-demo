@@ -1,7 +1,8 @@
-import { defineComponent, withModifiers } from 'vue';
+import { defineComponent } from 'vue';
 import { PageWrapper } from '/@/components/Page';
 import { createForm } from '@formily/core';
 import { Card } from 'ant-design-vue';
+import PersonTable from './components/PersonTable';
 import {
   FormLayout,
   FormItem,
@@ -9,8 +10,6 @@ import {
   Select,
   Form,
   Space,
-  FormButtonGroup,
-  Submit,
   InputNumber,
   DatePicker,
 } from '@formily/antdv-x3';
@@ -34,10 +33,11 @@ const formInstance = createForm();
 
 /** 提交输出 */
 const nForm = defineComponent({
+  name: 'GybgForm',
   setup() {
-    const log = (value: any) => {
-      console.log('value==>', value);
-    };
+    // const log = (value: any) => {
+    //   console.log('value==>', value);
+    // };
 
     return () => (
       <PageWrapper title="股权变更" content="当前仅开放北京地区，其他地区敬请期待~">
@@ -172,6 +172,7 @@ const nForm = defineComponent({
                   title={'外勤手机号码'}
                   x-decorator={FormItem}
                   x-component={Input}
+                  x-validator="phone"
                   x-decorator-props={{
                     layout: 'vertical',
                     colon: false,
@@ -202,10 +203,12 @@ const nForm = defineComponent({
                 />
               </SchemaVoidField>
             </SchemaField>
-            <FormButtonGroup>
-              <Submit onSubmit={withModifiers(log, ['self'])}>提交</Submit>
-            </FormButtonGroup>
           </Form>
+        </Card>
+
+        <Card class="!mt-5" title={'受让方'}>
+          {/* 表格 */}
+          <PersonTable></PersonTable>
         </Card>
       </PageWrapper>
     );
